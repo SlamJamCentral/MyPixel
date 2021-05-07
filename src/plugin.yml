@@ -1,0 +1,9 @@
+name: MyPixel
+version: 0.0.1
+author: SlamJamCentral and NoodleMansRamen
+description: A recreation of Hypixel's BedWars gamemode for use on personal servers
+main: com.teamisland.mypixel.MyPixel
+
+commands:
+    test:
+      description: this command does nothing yet!
