@@ -1,6 +1,6 @@
-package com.teamisland.mypixel.commands;
+package org.teamisland256.mypixel.commands;
 
-import com.teamisland.mypixel.MyPixel;
+import org.teamisland256.mypixel.MyPixel;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

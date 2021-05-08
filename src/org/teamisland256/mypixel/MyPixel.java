@@ -1,9 +1,10 @@
-package com.teamisland.mypixel;
+package org.teamisland256.mypixel;
 
-import com.teamisland.mypixel.commands.*;
-import com.teamisland.mypixel.events.TestEvent;
+import org.teamisland256.mypixel.commands.*;
+import org.teamisland256.mypixel.events.TestEvent;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.teamisland256.mypixel.commands.testCommand;
 
 public class MyPixel extends JavaPlugin {
 

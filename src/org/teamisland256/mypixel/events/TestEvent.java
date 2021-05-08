@@ -1,4 +1,4 @@
-package com.teamisland.mypixel.events;
+package org.teamisland256.mypixel.events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -13,7 +13,9 @@ public class TestEvent implements Listener {
     @EventHandler
     public static void onPlayerJoin(PlayerJoinEvent e){
         Player p = e.getPlayer();
-        p.sendMessage(ChatColor.RED + "I know where you live");
+        if(p.getDisplayName() == "Bad_Tanker") {
+            p.sendMessage(ChatColor.RED + "I know where you live");
+        }
     }
 
     @EventHandler
